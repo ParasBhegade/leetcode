@@ -3,9 +3,7 @@ class Solution:
         s1=set(nums1)
         s2=set(nums2)
         s1=s1.intersection(s2)
-        s1=list(s1)
-        s1.sort()
-        if len(s1)==0:
+        if s1==set():
             return -1
         else:
-            return s1[0]
+            return min(s1)
