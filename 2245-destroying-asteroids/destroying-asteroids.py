@@ -5,6 +5,7 @@ class Solution:
         for i in asteroids:
             if mass>=i:
                 mass+=i
-            else:
-                return False
-        return True
+        if mass==sum(asteroids)+init:
+            return True
+        else:
+            return False
