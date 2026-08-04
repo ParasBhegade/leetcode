@@ -1,3 +1,1 @@
-# leetcode
-
-## Solving Leetcode Jus for Fun 
+# ALL I FEEL IS O(n²) 
